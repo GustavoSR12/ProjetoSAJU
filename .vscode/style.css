@@ -5,27 +5,27 @@
 }
 
 :root {
-    --text-color: White;
-    --bg-url: url(./assets/assets/bg-mobile.jpg);
-    --stroke-color: rgba(255, 255, 255, 0.5);
-    --surface-color: rgba(255, 255, 255, 0.05);
+    --text-color: rgb(255, 255, 255);
+    --bg-url: url(./assets/bg-mobileSAJU.jpg);
+    --stroke-color: rgb(0, 0, 0);
+    --surface-color: rgba(0, 0, 0, 0.377);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(255, 255, 255, 0.2);
-    --switch-bg-url: url(./assets/assets/moon-stars.svg);
+    --switch-bg-url: url(./assets/ice-cream-outline.svg);
 }
 
 .light {
-    --text-color: black;
-    --bg-url: url(./assets/assets/bg-mobile-light.jpg);
-    --stroke-color: rgba(0, 0, 0, 0.5);
-    --surface-color: rgba(0, 0, 0, 0.05);
+    --text-color: rgb(255, 255, 255);
+    --bg-url: url(./assets/sun.svg);
+    --stroke-color: rgb(0, 0, 0);
+    --surface-color: rgba(0, 0, 0, 0.377);
      --surface-color-hover: rgba(0, 0, 0, 0.02);
      --highlight-color: rgba(0, 0, 0, 0.01);
-     --switch-bg-url: url(./assets/assets/sun.svg);
+     --switch-bg-url: url(./assets/heart-outline.svg);
 }
 
 body {
-    background: var(--bg-url) no-repeat top center/cover;
+    background-image: url(./assets/bg-mobileSAJU.jpg);
 }
 
 body *{
@@ -66,7 +66,7 @@ body *{
 #switch button {
    width: 32px;
    height: 32px;
-   background: white var(--switch-bg-url) no-repeat center;
+   background: rgb(255, 255, 255) var(--switch-bg-url) no-repeat center;
    border: 0;
    border-radius: 50%;
 
